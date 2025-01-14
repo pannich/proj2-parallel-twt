@@ -1,0 +1,71 @@
+ Record Test from go timer 
+Sequential size: xsmall
+Min Time: 0.26
+Sequential size: small
+Min Time: 0.27
+Sequential size: medium
+Min Time: 1.22
+Sequential size: large
+Min Time: 6.93
+Sequential size: xlarge
+Min Time: 66.71
+Parallel size: xsmall threads: 1
+Min Time: 0.26
+Parallel size: xsmall threads: 2
+Min Time: 0.25
+Parallel size: xsmall threads: 4
+Min Time: 0.26
+Parallel size: xsmall threads: 6
+Min Time: 0.25
+Parallel size: xsmall threads: 8
+Min Time: 0.40
+Parallel size: xsmall threads: 12
+Min Time: 0.26
+Parallel size: small threads: 1
+Min Time: 0.25
+Parallel size: small threads: 2
+Min Time: 0.25
+Parallel size: small threads: 4
+Min Time: 0.26
+Parallel size: small threads: 6
+Min Time: 0.28
+Parallel size: small threads: 8
+Min Time: 0.25
+Parallel size: small threads: 12
+Min Time: 0.25
+Parallel size: medium threads: 1
+Min Time: 1.16
+Parallel size: medium threads: 2
+Min Time: 0.90
+Parallel size: medium threads: 4
+Min Time: 0.78
+Parallel size: medium threads: 6
+Min Time: 0.75
+Parallel size: medium threads: 8
+Min Time: 0.73
+Parallel size: medium threads: 12
+Min Time: 0.74
+Parallel size: large threads: 1
+Min Time: 6.60
+Parallel size: large threads: 2
+Min Time: 4.59
+Parallel size: large threads: 4
+Min Time: 3.59
+Parallel size: large threads: 6
+Min Time: 3.20
+Parallel size: large threads: 8
+Min Time: 3.12
+Parallel size: large threads: 12
+Min Time: 3.04
+Parallel size: xlarge threads: 1
+Min Time: 65.74
+Parallel size: xlarge threads: 2
+Min Time: 44.60
+Parallel size: xlarge threads: 4
+Min Time: 33.41
+Parallel size: xlarge threads: 6
+Min Time: 30.52
+Parallel size: xlarge threads: 8
+Min Time: 28.63
+Parallel size: xlarge threads: 12
+Min Time: 28.55

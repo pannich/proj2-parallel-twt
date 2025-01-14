@@ -1,0 +1,30 @@
+package main
+
+import (
+	"encoding/json"
+	"os"
+	"proj2/server"
+	"strconv"
+)
+
+func main() {
+
+	args := os.Args[1:]
+
+	config := server.Config{
+		Encoder: json.NewEncoder(os.Stdout),
+		Decoder: json.NewDecoder(os.Stdin),
+	}
+
+	if len(args) == 0 {
+		config.Mode = "s"
+	} else {
+		config.Mode = "p"
+		consumersCount, err := strconv.Atoi(args[0])
+		if err != nil {
+			panic("invalid number of consumers")
+		}
+		config.ConsumersCount = consumersCount
+	}
+	server.Run(config)
+}
